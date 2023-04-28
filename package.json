@@ -2,9 +2,5 @@
   "name": "video-upload",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
-  "devDependencies": {
-    "prettier": "^2.8.7",
-    "typescript": "^5.0.4"
-  }
+  "type": "module"
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { InputError, InputHelp, InputLabel, InputLabelWrapper, InputWrapper } from '@/components/Common';
 
-interface IFileUploadProps {
+interface ITextInputProps {
   label: string;
   help?: string;
   value?: string;
@@ -10,7 +10,7 @@ interface IFileUploadProps {
   error?: string;
 }
 
-const FileUpload: React.FC<IFileUploadProps> = ({ label, help, value = '', onChange, onBlur, error }) => {
+const TextInput: React.FC<ITextInputProps> = ({ label, help, value = '', onChange, onBlur, error }) => {
   return (
     <InputWrapper>
       <InputLabelWrapper>
@@ -23,4 +23,4 @@ const FileUpload: React.FC<IFileUploadProps> = ({ label, help, value = '', onCha
   );
 };
 
-export default FileUpload;
+export default TextInput;
